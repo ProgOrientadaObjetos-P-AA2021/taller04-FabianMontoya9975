@@ -23,12 +23,6 @@ public class Ejecutor {
         Estudiante est1 = new Estudiante(name, calificacion1, calificacion2,
                 calificacion3);
         est1.establecerPromedioCalificaciones();
-        est1.obtenerNombreEstudiante();
-        est1.obtenerCalificacionMateria1();
-        est1.obtenerCalificacionMateria2();
-        est1.obtenerCalificacionMateria3();
-        est1.establecerPromedioCalificaciones();
-
         System.out.printf("%s\n", est1);
 
         String nombre = "Jorge Merino";
@@ -37,12 +31,6 @@ public class Ejecutor {
         double nota3 = 8.01;
         Estudiante est2 = new Estudiante(nombre, nota1, nota2, nota3);
         est2.establecerPromedioCalificaciones();
-        est2.obtenerNombreEstudiante();
-        est2.obtenerCalificacionMateria1();
-        est2.obtenerCalificacionMateria2();
-        est2.obtenerCalificacionMateria3();
-        est2.establecerPromedioCalificaciones();
-
         System.out.printf("%s\n", est2);
     }
 
